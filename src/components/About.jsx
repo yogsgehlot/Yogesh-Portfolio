@@ -3,15 +3,15 @@ import Navbar from "./Navbar";
 function About() {
   return (
     <div
-      className="   flex flex-col justify-start items-center pt-10
-     bg-[#fdfffc]   h-screen"
+      className="flex flex-col justify-start items-center md:pt-10 pt-24 pr-10 pl-10 
+     bg-[#fdfffc]  h-screen"
     >
-      <div className="bg-[#d00000] px-4 py-1 flex justify-center ">
-        <p className="text-6xl font-bold text-[#fdfffc]">ABOUT ME</p>
+      <div className="bg-[#d00000] md:px-4 py-1 flex justify-center ">
+        <p className="md:text-6xl text-4xl font-bold text-[#fdfffc]">ABOUT ME</p>
       </div>
       <div className="my-8">
-        <p className="text-4xl  text-[#000000]">
-          I'm <b> Yogesh Gehlot</b>, Full-Stack Web Developer / Freelancer
+        <p className="md:text-4xl text-xl text-justify text-[#000000]">
+          I'm <b> Yogesh Gehlot</b>, Full-Stack Web Developer/Freelancer
         </p>
       </div>
       <div className="my-5">

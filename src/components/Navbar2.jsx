@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar2() {
   return (
-    <div className="fixed flex flex-col h-screen bg-[#000000] w-[15%]  left-0 ">
+    <div className="fixed md:flex md:flex-col h-screen bg-[#000000] w-[15%]  left-0 hidden ">
       
         <img src="/profile2.png" className=" " alt="" />
     
