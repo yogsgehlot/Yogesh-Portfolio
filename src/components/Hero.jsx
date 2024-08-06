@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
-    <div className="md:grid md:grid-cols-2 h-screen bg-[#66666e] col-span-12">
+    <div className="md:grid md:grid-cols-2 flex flex-col items-center   bg-[#66666e] col-span-12">
       <img src="/profile3.jpg" className="relative md:hidden" alt="" />
 
-      <div className="md:col-span-1 bg-[#fdfffc] h-full flex-col flex flex-wrap items-start   p-5  md:p-20 gap-5 ">
+      <div className="md:col-span-1 bg-[#fdfffc] flex-col flex flex-wrap items-start h-screen  p-5  md:p-20 gap-5 ">
         <p className="md:text-5xl text-3xl font-bold">HI THERE!</p>
         <p className="md:text-6xl text-4xl font-bold">I'M Yogesh</p>
         <p className="md:text-2xl text-[15px] text-[#fdfffc] bg-[#d00000] px-4 py-3 my-2">
@@ -25,7 +25,7 @@ function Hero() {
           </button>
         </Link>
       </div>
-      <div className="md:col-span-1 bg-[url(/profile.png)] bg-cover hover:bg-opacity-40 hidden md:block "></div>
+      <div className="md:col-span-1 bg-[url(/profile.png)] bg-cover h-screen hover:bg-opacity-40 hidden md:block "></div>
     </div>
   );
 }
