@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 function About() {
   return (
     <div
@@ -39,7 +38,7 @@ function About() {
           </p>
         </div>
         <div className=" md:w-1/2 flex justify-center items-center flex-col gap-y-5 p-5 ">
-          <div className="md:text-4xl text-2xl font-bold bg-[#d00000] text-[#fdfffc] px-4 py-1">
+          <div className="md:text-4xl text-2xl font-bold bg-[#000000] text-[#fdfffc] px-4 py-1">
             What I Do..?
           </div>
           <div>
