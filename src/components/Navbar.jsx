@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <div className="fixed md:h-screen pt-5  md:p-10 md:right-0 items-center flex  justify-center">
-      <div className="bg-[#000000] text-[10px]  rounded-full p-3 w-full space-x-3 flex flex-wrap justify-center h-full items-center  gap-y-2 font-bold text-[#fdfffc] md:hidden">
+      <div className="bg-[#000000] text-[12px]  rounded-full p-3 w-full space-x-3 flex flex-wrap justify-center h-full items-center  gap-y-2 font-bold text-[#fdfffc] md:hidden">
         <NavLink
           to={"/"}
           className={({ isActive }) =>
