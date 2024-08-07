@@ -10,6 +10,7 @@ function Hero() {
         <p className="md:text-5xl text-3xl font-bold">HI THERE!</p>
         <p className="md:text-6xl text-4xl font-bold">I'M Yogesh</p>
         <p className="md:text-2xl text-[15px] text-[#fdfffc] bg-[#d00000] px-4 py-3 my-2">
+        
           Full-Stack Web Developer / Freelancer
         </p>
         <p className="text-xl my-2 ">
