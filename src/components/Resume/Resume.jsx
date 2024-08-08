@@ -11,13 +11,13 @@ function Resume() {
     >
       <div className="flex justify-center ">
         <p className="md:text-6xl text-4xl font-bold bg-[#d00000] px-4 py-1  text-[#fdfffc]">
-          RESUME
+          Resume
         </p>
       </div>
 
       <div className="flex max-md:justify-center max-md:items-center mt-5">
         <p className="md:text-4xl text-xl bg-[#000000] font-bold px-4 py-1 text-[#fdfffc] ">
-          EDUCATION
+          Education
         </p>
       </div>
 
@@ -27,7 +27,7 @@ function Resume() {
 
       <div className="flex max-md:justify-center max-md:items-center mt-5">
         <p className="md:text-4xl text-xl bg-[#000000] font-bold px-4 py-1 text-[#fdfffc] ">
-          SKILLSET
+          Skill Set
         </p>
       </div>
       <Skillset />
@@ -35,7 +35,7 @@ function Resume() {
       <hr className="my-8   " />
       <div className="flex">
         <p className="md:text-4xl text-xl bg-[#000000] font-bold px-4 py-1 text-[#fdfffc] ">
-          TOOLS I USE
+          Tools I Use
         </p>
       </div>
       <Tools />

@@ -7,7 +7,7 @@ function About() {
     >
       <div className="flex justify-center ">
         <p className="md:text-6xl text-4xl font-bold bg-[#d00000] px-4 py-1  text-[#fdfffc]">
-          ABOUT ME
+          About Me
         </p>
       </div>
       <div className="my-8">

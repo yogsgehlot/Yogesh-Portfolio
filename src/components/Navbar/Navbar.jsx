@@ -33,9 +33,9 @@ function Navbar() {
           className={({ isActive }) =>
             `hover:text-[#d00000] ${isActive ? "text-[#d00000]" : undefined} `
           }
-          to={"/yogesh/portfolio"}
+          to={"/yogesh/projects"}
         >
-          PORTFOLIO
+          PROJECTS
         </NavLink>
         <NavLink
           className={({ isActive }) =>
@@ -127,7 +127,7 @@ function Navbar() {
             className={({ isActive }) =>
               `${isActive ? "text-[#d00000]" : undefined}  `
             }
-            to={"/yogesh/portfolio"}
+            to={"/yogesh/projects"}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

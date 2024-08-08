@@ -6,9 +6,9 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Hero from './components/Hero/Hero.jsx'
 import About from './components/About/About.jsx'
 import Resume from './components/Resume/Resume.jsx'
-import Portfolio from './components/Portfolio/Portfolio.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Layout from './Layout.jsx'
+import Projects from './components/Projects/Projects.jsx'
 
 
 const router = createBrowserRouter(
@@ -18,8 +18,8 @@ const router = createBrowserRouter(
       <Route path="/yogesh" element={<Layout />}>
         <Route path="about" element={<About />} />
         <Route path="resume" element={<Resume />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contact" element={<Contact/>} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="contact" element={<Contact />} />
       </Route>
     </Route>
   )
