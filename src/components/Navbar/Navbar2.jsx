@@ -3,10 +3,11 @@ import { Link, NavLink } from "react-router-dom";
 
 function Navbar2() {
   return (
-    <div className="fixed md:flex md:flex-col h-screen bg-[#000000] w-[15%]  left-0 hidden ">
-      <img src="/profile2.png" className=" " alt="" />
-
-      <div className="flex flex-col justify-center h-full items-center  gap-y-10 font-bold text-[#fdfffc] ">
+    <div className="fixed md:flex md:flex-col   h-screen bg-[#000000] w-[20vw]  left-0 hidden ">
+      <div>
+        <img src="/profile2.png" className=" " alt="" />
+      </div>
+      <div className="flex flex-col justify-center h-full items-center md:space-y-7 lg:space-y-10 font-bold text-[#fdfffc] ">
         <NavLink
           to={"/"}
           className={({ isActive }) =>

@@ -19,7 +19,7 @@ function Projects() {
           Here are few projects I've worked on recently
         </p>
       </div>
-      <div className="grid grid-cols-12 m-5 gap-8">
+      <div className="flex flex-wrap justify-center items-center gap-5">
         {data &&
           data.map((project) => (
             <ProjectsCard

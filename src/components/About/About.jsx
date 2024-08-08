@@ -3,7 +3,7 @@ function About() {
   return (
     <div
       className="flex flex-col justify-start  md:pt-10 pt-24 pr-10 pl-10 
-     bg-[#fdfffc]  h-screen "
+     bg-[#fdfffc]  h-screen text-justify"
     >
       <div className="flex justify-center ">
         <p className="md:text-6xl text-4xl font-bold bg-[#d00000] px-4 py-1  text-[#fdfffc]">
@@ -11,12 +11,12 @@ function About() {
         </p>
       </div>
       <div className="my-8">
-        <p className="md:text-4xl text-xl  text-[#000000]">
+        <p className="md:text-4xl text-xl  text-[#000000] text-justify">
           I'm <b> Yogesh Gehlot</b>, Full-Stack Web Developer/Freelancer
         </p>
       </div>
       <div className="my-5">
-        <p className="md:text-2xl text-[15px]">
+        <p className="md:text-2xl text-[15px] text-justify">
           At the intersection of creativity and technology, I bring your ideas
           to life with a blend of frontend finesse and backend power. With a
           strong foundation in both aspects of web development, I specialize in
@@ -25,8 +25,8 @@ function About() {
         </p>
       </div>
 
-      <div className=" max-md:flex-col flex justify-center gap-x-5 pb-10 ">
-        <div className=" md:w-1/2 flex justify-center items-center flex-col gap-y-5 bg-[#000000] text-[#fdfffc] p-5 ">
+      <div className=" max-lg:flex-col flex justify-center max-lg:items-center gap-x-5 pb-10 ">
+        <div className=" lg:w-1/2 flex justify-center items-center flex-col gap-y-5 bg-[#000000] text-[#fdfffc] p-5 ">
           <p className="md:text-4xl text-2xl font-bold text-[#fdfffc] px-4 py-1">
             My Mission
           </p>
@@ -37,7 +37,7 @@ function About() {
             expectations.
           </p>
         </div>
-        <div className=" md:w-1/2 flex justify-center items-center flex-col gap-y-5 p-5 ">
+        <div className=" lg:w-1/2 flex justify-center items-center flex-col gap-y-5 p-5 ">
           <div className="md:text-4xl text-2xl font-bold bg-[#000000] text-[#fdfffc] px-4 py-1">
             What I Do..?
           </div>
