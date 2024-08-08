@@ -11,6 +11,7 @@ import Layout from './Layout.jsx'
 import Projects from './components/Projects/Projects.jsx'
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
@@ -32,3 +33,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </RouterProvider>
   </React.StrictMode>,
 )
+
