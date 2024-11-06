@@ -2,7 +2,7 @@ import React from "react";
 function About() {
   return (
     <div
-      className="flex flex-col justify-start  md:pt-10 pt-24 pr-10 pl-10 
+      className="flex flex-col justify-start  md:pt-10 pt-16  pr-10 pl-10 
      bg-[#fdfffc]  h-screen text-justify"
     >
       <div className="flex justify-center ">
@@ -25,7 +25,7 @@ function About() {
         </p>
       </div>
 
-      <div className=" max-lg:flex-col flex justify-center max-lg:items-center gap-x-5 pb-10 ">
+      <div className=" max-lg:flex-col flex justify-center max-lg:items-center gap-x-5 pb-24 ">
         <div className=" lg:w-1/2 flex justify-center items-center flex-col gap-y-5 bg-[#000000] text-[#fdfffc] p-5 ">
           <p className="md:text-4xl text-2xl font-bold text-[#fdfffc] px-4 py-1">
             My Mission
@@ -54,6 +54,7 @@ function About() {
                 </p>
               </div>
             </div>
+
             <div className="flex justify-center items-center gap-x-5">
               <img src="/backend.png" alt="" />
               <div className="flex flex-col justify-center items-start ">
@@ -66,6 +67,7 @@ function About() {
                 </p>
               </div>
             </div>
+
             <div className="flex justify-center items-center gap-x-5">
               <img src="/freelance.png" alt="" />
               <div className="flex flex-col justify-center items-start ">
@@ -78,9 +80,11 @@ function About() {
                 </p>
               </div>
             </div>
+            
           </div>
         </div>
       </div>
+
     </div>
   );
 }

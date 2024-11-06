@@ -5,7 +5,7 @@ function Projects() {
   
   return (
     <div
-      className="  md:pt-10 pt-24 pr-10 pl-10 
+      className="  md:pt-10 pt-16 pb-24 pr-10 pl-10 
       bg-[#fdfffc] h-screen space-y-8"
     >
       <div className="flex justify-center ">
@@ -19,7 +19,7 @@ function Projects() {
           Here are few projects I've worked on recently
         </p>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-5">
+      <div className="flex flex-wrap justify-center items-center gap-5 pb-24">
         {data &&
           data.map((project) => (
             <ProjectsCard

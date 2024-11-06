@@ -18,7 +18,7 @@ import { LiaLinkedinIn } from "react-icons/lia";
 function Contact() {
   return (
     <div
-      className="  md:pt-10 pt-24 pr-10 pl-10 
+      className="  md:pt-10 pt-16 pb-24 pr-10 pl-10 
       bg-[#fdfffc] h-screen space-y-8 text-justify"
     >
       <div className="flex justify-center ">
@@ -40,7 +40,7 @@ function Contact() {
           possible.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center items-center gap-5">
+      <div className="flex flex-wrap justify-center items-center gap-5 pb-24">
         <a
           href="https://www.instagram.com/yogsgehlot"
           target="_blank"
@@ -77,7 +77,6 @@ function Contact() {
           <CgMail />
         </a>
       </div>
-
     </div>
   );
 }
