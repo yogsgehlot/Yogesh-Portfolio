@@ -6,7 +6,7 @@
 
 ## 🌟 Live Demo
 
-👉 Check out the live version here: [Portfolio Website](https://your-portfolio-link.com)
+👉 Check out the live version here: [Portfolio Website](https://yogesh-portfoilo.vercel.app/)
 
 ---
 
@@ -40,11 +40,11 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
+   git clone https://github.com/yogsgehlot/Yogesh-Portfoilo.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-portfolio
+   cd Yogesh-Portfoilo
    ```
 3. Install dependencies:
    ```bash
@@ -58,19 +58,11 @@ Ensure you have the following installed on your system:
 
 ---
 
-## 🖼️ Screenshots
-
-![Portfolio Screenshot 1](https://via.placeholder.com/800x400)
-![Portfolio Screenshot 2](https://via.placeholder.com/800x400)
-
----
-
 ## 📬 Contact
 
 Have feedback or want to collaborate? Feel free to reach out:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yogsgehlot)
 
 ---
 
@@ -87,8 +79,4 @@ Special thanks to:
 
 Contributions, issues, and feature requests are welcome! Feel free to fork this repo and submit a pull request.
 
----
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
