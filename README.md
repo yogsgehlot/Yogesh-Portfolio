@@ -40,11 +40,11 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yogsgehlot/Yogesh-Portfoilo.git
+   git clone https://github.com/yogsgehlot/Yogesh-Portfolio.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd Yogesh-Portfoilo
+   cd Yogesh-Portfolio
    ```
 3. Install dependencies:
    ```bash
